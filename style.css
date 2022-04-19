@@ -10,6 +10,7 @@
 h1{
     font-style: italic;
     margin: 15px;
+    text-align: center;
 }
 .headerencabezado{
     display: grid;
@@ -18,7 +19,11 @@ h1{
     width: 100%;
 }
 .logoempresa{
-    width: 100px;}
+    width: 100px;
+   
+}
+
+
 
 /*------------------header----------------------------------*/
 
@@ -37,6 +42,15 @@ h1{
     margin-right: 15px;
 }
 
+p {
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
 .fuentetexto{
     margin-right: 20px;
     margin-left: 20px;
@@ -49,7 +63,7 @@ h1{
     
 li .fuentetexto{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(7, 15, 134);}
+    color: rgb(40, 50, 193);}
 
 .menu-flex{
     display: flex;
@@ -77,7 +91,7 @@ li .fuentetexto{
     }
 
 .colorfondo {
-        background-color: rgb(199, 70, 15);
+        background-color: rgb(167, 65, 21);
     }
 
 
@@ -93,7 +107,7 @@ li .fuentetexto{
 }
 
 .titulo{
-    color: rgb(29, 85, 206);
+    color: rgb(13, 56, 147);
     font-size:50px;
     font-style: initial;
     
@@ -109,13 +123,24 @@ nav {
 }
                   
     
-h3{
+h3 {
     color: rgb(246, 243, 241);
     text-align: center;
-    padding: 20px;
-   font-size: large;
-   margin-left: 30%
+    margin-left: 350px;
+
 }
+h4 {
+    color: aliceblue;
+    text-align: center;
+    margin-left: 500px;
+    font-size:20px
+}
+
+
+
+    
+    
+    
 
 .sizeconst{
     
@@ -182,10 +207,16 @@ a {
 
 .size {
     border-radius: 20px;
-    display: inline-block;
     margin: auto;
     width: 300px;
     height: 300px;
+}
+
+.galeriaGridfotos{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25rem
 }
 
 .mapa {
@@ -229,8 +260,10 @@ footer{
     width: 100%;
 }
 .img-paredGrid{
+    background-image: url(./imagenes/imagen\ pared.jpg);
     justify-items: center;
     width: 100%;
+    background-attachment: fixed;
 
 }
 .galeriaGrid {
@@ -245,8 +278,14 @@ footer{
 
 .footerGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
+}
+
+.redesGrid{
+    grid-area: 1fr 1fr 1fr;
+    
 }
 .logosRedes {
     width: 50px;
@@ -267,7 +306,7 @@ footer{
 
 /*---------------------------------------fin index con grid--------------------------------*/
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .menu-flex {
         display: flex;
         flex-direction: column;}
@@ -329,7 +368,43 @@ footer{
     
 }
 
-@media (min-width: 481px) and (max-width: 1023px) {
+@media only screen and (max-width: 768px) {
+
+    .headerGrid{
+      grid-template-columns: 1fr;
+    }
+    .img-paredGrid{
+        grid-template-columns: 1fr;
+    }
+    .galeriaGrid{
+        grid-template-columns: 1fr;
+        width: 1px;
+    }
+
+    .sizeconst{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: 5rem;
+        height: 5rem;
+        
+    }
+
+    .footerGrid{
+        grid-template-columns: 1fr;
+    }
+
+    .galeriaGridfotos {
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+/*------------------------------MEDIAindexGrid------------------*/
+
+      
+            
+}@media only screen and (max-width: 1023px) {
     .menu-flex {
         display: flex;
         flex-direction: column;
@@ -356,7 +431,7 @@ footer{
         
         
     }
-    .galeriaFlex img {
+    .galeriaFotos img {
         margin: 10px;
         width: 250px;
     }
@@ -389,26 +464,13 @@ footer{
          flex-direction: column;
      }
     
-
+     .trabajaconnosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20rem
+     }
     
-}
-/*------------------------------MEDIAindexGrid------------------*/
-@media (max-width: 768px) {
-
-      .headerGrid{
-        grid-template-columns: 1fr;
-      }
-      .img-paredGrid{
-          grid-template-columns: 1fr;
-      }
-      .galeriaGrid{
-          grid-template-columns: 1fr;
-          width: 1px;
-      }
-      .footerGrid{
-          grid-template-columns: 1fr;
-      }
-            
 }
 
 
