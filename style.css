@@ -36,7 +36,7 @@ h1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(129, 128, 128);
+    background-color: rgb(60, 85, 143);
     list-style: none;
 }
 .barraNavegacion--lista li {
@@ -74,7 +74,7 @@ p {
     
 li .fuentetexto{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(40, 50, 193);}
+    color: rgb(131, 19, 11);}
 
 .menu-flex{
     display: flex;
