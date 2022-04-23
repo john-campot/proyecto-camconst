@@ -52,6 +52,7 @@ p {
 }
 
 .animacionP {
+    /*listo para mergear*/
     background-image: linear-gradient(rgb(11, 11, 183),rgb(127, 127, 249));
     transition: all 1s;
 }
