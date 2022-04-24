@@ -406,15 +406,14 @@ footer{
          margin: 0%;
          padding: 0%;
      }
-     .contacto {
-         display: flex;
-        
-     }
+     
 
-     .contactoFlex {
-         display: flex;
-         flex-direction: column;
-     }
+    .contactoFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
      .galeriaFlex {
         display: flex;
         flex-direction: row;
@@ -515,14 +514,12 @@ footer{
          margin: 0%;
          padding: 0%;
      }
-     .contacto {
-         margin-left: 370px;
-     }
-
+   
      .contactoFlex {
-         display: flex;
-         flex-direction: column;
-     }
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
     
      .trabajaconnosotros {
         display: flex;
