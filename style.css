@@ -216,10 +216,16 @@ a {
 }
 
 .contacto {
-    margin-left: 60px;
+    
     width: 50px;
-   
+   }
+
+.contactoFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
 
 .trabajaconnosotros{
     border-radius:  20px;
