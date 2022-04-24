@@ -324,6 +324,14 @@ footer{
     border-radius: 5px;
 }
 
+.numeroCentro {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+
 
 
 
@@ -364,6 +372,9 @@ footer{
         width: 100%;
         
         
+    }
+    .pagination {
+        justify-content: center;
     }
     .galeriaFlex img {
         margin: 10px;
