@@ -443,8 +443,8 @@ footer{
     .sizeconst{
         grid-template-columns: 1fr;
         justify-items: center;
-        width: 5rem;
-        height: 5rem;
+        width: 10rem;
+        height: 10rem;
         
     }
 
