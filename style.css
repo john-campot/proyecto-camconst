@@ -3,16 +3,16 @@
 *{
     margin: 0;
     padding: 0%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
 }
+    
+
 
 h1{
-    color: rgb(11, 11, 147);
-    font-style: italic;
-    
-   
+    color: rgb(59, 59, 174);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Serif', serif;
 }
+
 .headerencabezado{
     display: grid;
     background: url(./imagenes/paredladrillos3.jpg);
@@ -54,12 +54,17 @@ h1{
     margin-right: 15px;
 }
 
-p {
-    color: aliceblue;
-    font-size: 30px;
-    text-align: center;
+p { 
+    text-decoration-style: double;
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    text-align: justify;
     padding: 10px;
     
+}
+h5 {
+    font-size: large;
+    color: rgb(62, 62, 208);
 }
 
 .animacionP {
@@ -256,6 +261,8 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 25rem
 }
+
+
 
 .mapa {
     
