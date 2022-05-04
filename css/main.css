@@ -1,0 +1,110 @@
+.body .colorfondo {
+  background-color: #a74115; }
+
+.headerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15rem;
+  background-image: url(./imagenes/paredladrillos3.jpg);
+  justify-items: center;
+  align-items: center;
+  width: 100%; }
+
+.header .headerencabezado {
+  display: grid;
+  background: url(./imagenes/paredladrillos3.jpg);
+  background-color: rgba(17, 10, 155, 0.966);
+  width: 100%; }
+  .header .headerencabezado .logo-nav {
+    margin-right: 200px; }
+
+.main .img-paredGrid {
+  background-image: url(./imagenes/imagenPared2.jpg);
+  justify-items: center;
+  width: 100%;
+  background-attachment: fixed; }
+
+.main .imagenFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .main .imagenFlex .galeriaFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+
+.main .imagenGaleriasize {
+  border-radius: 10px;
+  justify-items: center;
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  margin: 2px; }
+
+.main .sizeconst {
+  margin: 130px;
+  display: inline-block;
+  flex-direction: row;
+  width: 150px;
+  height: 120px; }
+
+.main .footer .contactoFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.main .footer .contacto {
+  width: 50px; }
+
+.main .footer .mapaGoogle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%; }
+
+.main .footer .bordemapa {
+  position: relative;
+  margin: 0%;
+  padding: 0%; }
+
+.main .footer .redes {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  justify-content: center; }
+
+.main .footer .redesFlex {
+  margin: 10px;
+  margin-bottom: 100px; }
+
+.main .animacionP {
+  background-image: linear-gradient(#0b0bb7, #7f7ff9);
+  transition: all 1s; }
+
+.main .numeroCentro {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0%; }
+
+.main .textcenter {
+  text-align: center; }
+
+.main .carousel-inner img {
+  width: 550px;
+  margin: auto; }
+
+.main .trabajaconnosotros {
+  border-radius: 20px;
+  width: 650px; }
+
+.main .formulario {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #472506;
+  text-align: left; }
+
+.main .margenFormulario {
+  width: 200px;
+  height: 30px;
+  margin-left: 30px; }

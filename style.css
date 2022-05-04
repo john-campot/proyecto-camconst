@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0%;
@@ -305,7 +303,7 @@ footer{
     width: 100%;
 }
 .img-paredGrid{
-    background-image: url(./imagenes/imagen\ pared.jpg);
+    background-image: url(./imagenes/imagenPared2.jpg);
     justify-items: center;
     width: 100%;
     background-attachment: fixed;
