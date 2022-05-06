@@ -25,6 +25,15 @@
                         }
     
     }
+
+    .menu-flex {
+        @include flexbox (center, row);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 15px;
+
+    }
 }
 
 .main {
@@ -66,6 +75,15 @@
                 height: 120px;
 
             }
+
+            .p { 
+                text-decoration-style: double;
+                color: rgb(249, 249, 249);
+                font-size: map-get($tamanio-texto, parrafos);
+                text-align: justify;
+                padding: 10px;
+            }
+
             .footer {
 
                 .contactoFlex {

@@ -1,3 +1,6 @@
+/*maps*/
+/*extend*/
+/*mixin*/
 .body .colorfondo {
   color: rgba(212, 95, 11, 0.333); }
 
@@ -17,6 +20,15 @@
   width: 100%; }
   .header .headerencabezado .logo-nav {
     margin-right: 200px; }
+
+.header .menu-flex {
+  display: flex;
+  align-items: center;
+  direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px; }
 
 .main .img-paredGrid {
   background-image: url(./imagenes/imagenPared2.jpg);
@@ -48,6 +60,13 @@
   flex-direction: row;
   width: 150px;
   height: 120px; }
+
+.main .p {
+  text-decoration-style: double;
+  color: #f9f9f9;
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px; }
 
 .main .footer .contactoFlex {
   display: flex;

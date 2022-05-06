@@ -1,1 +1,33 @@
 $color-pricipal: rgba(212, 95, 11, 0.333);
+
+
+
+
+
+/*maps*/
+
+$tamanio-texto: (
+
+    titulos: 24px,
+    subtitulos: 20px,
+    parrafos: 14px,
+
+);
+
+/*extend*/
+
+%flex-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+};
+
+/*mixin*/
+
+@mixin flexbox ( $align, $direction) {
+    display:flex;
+    align-items: $align ;
+    direction: $direction ;   
+};
