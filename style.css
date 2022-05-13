@@ -106,7 +106,8 @@ li .fuentetexto{
     }
     .carousel-inner img{
         width: 550px;
-       margin:auto
+       margin:auto;
+       border-radius: 5rem;
        
     }
     
@@ -231,6 +232,7 @@ a {
 
 
 .trabajaconnosotros{
+    margin-left: 340px;
     border-radius:  20px;
     width: 650px;
 }
