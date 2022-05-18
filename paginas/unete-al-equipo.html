@@ -17,8 +17,7 @@
         <nav class="headerencabezado"> 
             <div class="menu-flex">
                 <div class="logo-nav">
-                   
-                </div>
+                   </div>
                 <div>
                     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
                         <div class="container-fluid">
@@ -38,7 +37,7 @@
                               </div>
                    
                          </div>
-                 </nav>
+                    </nav>
             
 
         </div>
@@ -49,18 +48,52 @@
         <fieldset>
             <h3 class="formulario">Datos del usuario</h3>
 
-            <form >
-                <input class="margenFormulario" type="text" placeholder="Nombre"> <br>
-                <input class="margenFormulario" type="email" placeholder="Email"> <br>
-                <input class="margenFormulario" type="number" placeholder="Numero de telefono"> <br>
-                <input class="margenFormulario" type="text"  placeholder="Mensaje">          
-                <input type="checkbox" value="checkbox"> <br>
-                
-                <input class="margenFormulario" type="reset" value="Eliminar">
-            
-                <input class="margenFormulario" type=submit value="Enviar">
-            
-            </form>
+          
+              <form class="was-validated">
+                <div class="mb-3">
+                  <label for="validationTextarea">Comentarios</label>
+                  <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Escriba aqui su comentario" required></textarea>
+                  <div>
+                    Escriba aqui su comentario.
+                  </div>
+                </div>
+              
+                <div class="form-check mb-3">
+                  <input type="checkbox" id="validationFormCheck1" required>
+                  <label class="form-check-label" for="validationFormCheck1">Haga click si su comentario esta finalizado.</label>
+                  <div class="invalid-feedback"></div>
+                </div>
+              
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                  <label for="validationFormCheck2">Hombre</label>
+                </div>
+                <div class="form-check mb-3">
+                  <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                  <label for="validationFormCheck3">Mujer</label>
+                  <div class="invalid-feedback"></div>
+                </div>
+              
+                <div class="mb-3">
+                  <select class="form-select" required aria-label="select example">
+                    <option value="">Selecciona tu localidad</option>
+                    <option value="1">Carmelo</option>
+                    <option value="2">Colonia del Sacramento</option>
+                    <option value="3">Nueva Palmira</option>
+                  </select>
+                  <div class="invalid-feedback"></div>
+                </div>
+              
+                <div class="mb-3">
+                  <input type="file" class="form-control" aria-label="file example" required>
+                  <div class="invalid-feedback"></div>
+                </div>
+              
+                <div class="mb-3">
+                  <button class="btn btn-primary" type="submit" href="../paginas/unete-al-equipo.html">ENVIAR</button>
+                </div>
+              </form>
+           
 
         </fieldset>
         
