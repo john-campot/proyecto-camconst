@@ -114,6 +114,12 @@
   width: 550px;
   margin: auto; }
 
+.main .numeroCentro {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0%; }
+
 .main .trabajaconnosotros {
   border-radius: 20px;
   width: 650px; }
