@@ -120,10 +120,50 @@ li .fuentetexto{
         width: 400px;
         height: 300px;
         display: inline-block;
-        margin: 2px
-        
-    }
+        margin: 2px;
+       
+    }   
 
+    
+    .text-center-my-3 {
+        text-align: center;
+        animation-name: titulo;
+        animation-duration: 15s;
+        animation-delay: 3s;
+
+    }
+    @keyframes titulo {
+    
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: .5;
+       
+        } 
+        20% {
+            opacity: 1;
+       
+        } 
+        30% {
+            opacity: 1.5;
+       
+        } 
+        40% {
+            opacity: 1.8;
+       
+        } 
+        60% {
+            opacity: 2;
+       
+        } 
+        100% {
+            opacity: 2.5;
+       
+        } 
+}
+
+    
     .col-lg-4{
         border-radius: 10px;
         padding: 5px;
@@ -321,7 +361,40 @@ footer{
     width: 100%;
     background-attachment: fixed;
 
+    animation-name: pared;
+    animation-duration: 10s;
 }
+@keyframes pared {
+    
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: .1;
+   
+    } 
+    20% {
+        opacity: .5;
+   
+    } 
+    30% {
+        opacity: 1;
+   
+    } 
+    40% {
+        opacity: 1.5;
+   
+    } 
+    60% {
+        opacity: 2;
+   
+    } 
+    100% {
+        opacity: 2.5;
+   
+    } 
+}
+
 .galeriaGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
