@@ -1,6 +1,77 @@
-.main {
-    .textcenter {
-        text-align: center;
-    }
+.logosRedes {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.contacto {
     
+    width: 50px;
+   }
+
+.contactoFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mapa {
+    
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 25px;
+   }
+    
+.textcenter {
+    text-align: center;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    margin:40px;
+    justify-content: center;
+}
+
+.redes-flex{
+    margin: 10px;
+    margin-bottom: 100px;
+}
+footer{
+    background-color: rgb(155, 64, 64);
+}
+
+.headerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15rem;
+    background-image: url(./imagenes/paredladrillos3.jpg);
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logosRedes {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.numeroCentro {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+*{
+    margin: 0;
+    padding: 0%;
+}
+    
+
+
+
+
+.headerencabezado{
+    display: grid;
+    background: url("../imagenes/paredladrillos3.jpg");
+    background-color: rgba(17, 10, 155, 0.966);
+    width: 100%;
 }

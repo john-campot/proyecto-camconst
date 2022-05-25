@@ -283,7 +283,10 @@ a {
 
 
 .trabajaconnosotros{
-    margin-left: 340px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius:  20px;
     width: 650px;
 }
@@ -317,7 +320,8 @@ a {
 
 .mapa {
     
-    margin-left: 460px;
+    display: block;
+    margin: 0 auto;
     width: 350px;
     border-radius: 25px;
    }
@@ -447,7 +451,15 @@ footer{
     .menu-flex {
         display: flex;
         flex-direction: column;}
+        
+        .mapa {
+            width: 100%;
+        }
 
+        .trabajaconnosotros{
+            
+            width: 100%;
+        }
 
     .barraNavegacion--lista {
 
@@ -512,10 +524,7 @@ footer{
         width: 50%;
         padding: 0px;
      }
-     .trabajaconnosotros {
-         margin-left: 150px ;
-     }
-
+    
         
      
     
@@ -563,9 +572,7 @@ footer{
         grid-template-columns: 1fr;
 
     }
-    .trabajaconnosotros {
-        margin-left: 70px ;
-    }
+   
 
 
 

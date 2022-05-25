@@ -1,8 +1,178 @@
 /*maps*/
 /*extend*/
 /*mixin*/
-.body .colorfondo {
-  color: rgba(212, 95, 11, 0.333); }
+h1 {
+  text-shadow: 3px 3px;
+  -webkit-text-stroke: 1px #e2d2d2;
+  color: transparent;
+  color: #3232f4;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Noto Serif', serif; }
+
+.logoE {
+  width: 150px;
+  border-radius: 15px; }
+
+.nav-link {
+  font-size: 24px; }
+
+.logoempresa {
+  margin: auto;
+  width: 100px; }
+
+p {
+  text-decoration-style: double;
+  color: #f9f9f9;
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px; }
+
+h5 {
+  font-size: large;
+  color: #f8f8f8; }
+
+.animacionP {
+  /*listo para mergear*/
+  background-image: linear-gradient(#0b0bb7, #7f7ff9);
+  transition: all 1s; }
+
+.animacionP:hover {
+  background-image: linear-gradient(#0b0b4d, #7878b7);
+  transform: scale(1); }
+
+.fuentetexto {
+  margin-right: 20px;
+  margin-left: 20px; }
+
+.logo-nav {
+  margin-right: 200px; }
+
+li .fuentetexto {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #83130b; }
+
+.menu-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px; }
+
+.imagengaleria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px; }
+
+.carousel-inner img {
+  width: 550px;
+  margin: auto;
+  border-radius: 5rem; }
+
+.imagenGaleriasize {
+  border-radius: 10px;
+  justify-items: center;
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  margin: 2px; }
+
+.text-center-my-3 {
+  text-align: center;
+  animation-name: titulo;
+  animation-duration: 15s;
+  animation-delay: 3s; }
+
+@keyframes titulo {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: .5; }
+  20% {
+    opacity: 1; }
+  30% {
+    opacity: 1.5; }
+  40% {
+    opacity: 1.8; }
+  60% {
+    opacity: 2; }
+  100% {
+    opacity: 2.5; } }
+
+.col-lg-4 {
+  border-radius: 10px;
+  padding: 5px; }
+
+.colorfondo {
+  background-color: chocolate; }
+
+h3 {
+  margin: auto;
+  font-size: 30px;
+  color: #f6f3f1;
+  text-align: center; }
+
+h4 {
+  margin: auto;
+  font-size: 30px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 30px; }
+
+.sizeconst {
+  margin: 130px;
+  display: inline-block;
+  flex-direction: row;
+  width: 150px;
+  height: 120px; }
+
+.img-p {
+  width: 100%; }
+
+.iframe {
+  height: 1px;
+  width: 1px; }
+
+.imagenpared {
+  width: 100%; }
+
+.bordemapa {
+  border-radius: 10px;
+  margin-left: 480px;
+  width: 300px;
+  height: 200px; }
+
+a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.contacto {
+  width: 50px; }
+
+.contactoFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  justify-content: center; }
+
+.galeriaGrid h3 {
+  text-align: center; }
+
+.redes-flex {
+  margin: 10px;
+  margin-bottom: 100px; }
+
+footer {
+  background-color: #9b4040; }
 
 .headerGrid {
   display: grid;
@@ -13,123 +183,469 @@
   align-items: center;
   width: 100%; }
 
-.header .headerencabezado {
-  display: grid;
-  background: url(./imagenes/paredladrillos3.jpg);
-  background-color: rgba(17, 10, 155, 0.966);
-  width: 100%; }
-  .header .headerencabezado .logo-nav {
-    margin-right: 200px; }
-
-.header .menu-flex {
-  display: flex;
-  align-items: center;
-  direction: row;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 15px; }
-
-.main .img-paredGrid {
+.img-paredGrid {
   background-image: url(./imagenes/imagenPared2.jpg);
   justify-items: center;
   width: 100%;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  animation-name: pared;
+  animation-duration: 10s; }
 
-.main .imagenFlex {
+@keyframes pared {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: .1; }
+  20% {
+    opacity: .5; }
+  30% {
+    opacity: 1; }
+  40% {
+    opacity: 1.5; }
+  60% {
+    opacity: 2; }
+  100% {
+    opacity: 2.5; } }
+
+.galeriaGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 10rem);
+  gap: 1rem;
+  column-gap: 1rem;
+  background-color: #ac2e18; }
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center; }
+
+.redesGrid {
+  grid-area: 1fr 1fr 1fr; }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.numeroCentro {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0%; }
+
+.barraNavegacion--lista {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
-  .main .imagenFlex .galeriaFlex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%; }
+  justify-content: center;
+  align-items: center;
+  background-color: #3c558f;
+  list-style: none; }
 
-.main .imagenGaleriasize {
-  border-radius: 10px;
-  justify-items: center;
-  width: 400px;
-  height: 300px;
+.barraNavegacion--lista li {
+  margin-right: 15px; }
+
+.titulo {
+  color: #0d3893;
+  font-size: 50px;
+  font-style: initial; }
+
+nav {
   display: inline-block;
-  margin: 2px; }
+  width: fit-content; }
 
-.main .sizeconst {
-  margin: 130px;
-  display: inline-block;
-  flex-direction: row;
-  width: 150px;
-  height: 120px; }
+* {
+  margin: 0;
+  padding: 0%; }
 
-.main .p {
-  text-decoration-style: double;
-  color: #f9f9f9;
-  font-size: 14px;
-  text-align: justify;
-  padding: 10px; }
+.headerencabezado {
+  display: grid;
+  background: url("../imagenes/paredladrillos3.jpg");
+  background-color: rgba(17, 10, 155, 0.966);
+  width: 100%; }
 
-.main .footer .contactoFlex {
+li:hover {
+  background-color: rgba(34, 128, 160, 0.977); }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.contacto {
+  width: 50px; }
+
+.contactoFlex {
   display: flex;
   flex-direction: row;
   justify-content: center; }
 
-.main .footer .contacto {
-  width: 50px; }
-
-.main .footer .mapaGoogle {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%; }
-
-.main .footer .bordemapa {
-  position: relative;
-  margin: 0%;
-  padding: 0%; }
-
-.main .footer .redes {
+.redes {
   display: flex;
   flex-direction: row;
   margin: 40px;
   justify-content: center; }
 
-.main .footer .redesFlex {
+.redes-flex {
   margin: 10px;
   margin-bottom: 100px; }
 
-.main .animacionP {
-  background-image: linear-gradient(#0b0bb7, #7f7ff9);
-  transition: all 1s; }
+footer {
+  background-color: #9b4040; }
 
-.main .numeroCentro {
+.headerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15rem;
+  background-image: url(./imagenes/paredladrillos3.jpg);
+  justify-items: center;
+  align-items: center;
+  width: 100%; }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.numeroCentro {
   margin: auto;
   display: flex;
   justify-content: center;
   margin: 0%; }
 
-.main .textcenter {
+* {
+  margin: 0;
+  padding: 0%; }
+
+.headerencabezado {
+  display: grid;
+  background: url("../imagenes/paredladrillos3.jpg");
+  background-color: rgba(17, 10, 155, 0.966);
+  width: 100%; }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.contacto {
+  width: 50px; }
+
+.contactoFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.mapa {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  border-radius: 25px; }
+
+.textcenter {
   text-align: center; }
 
-.main .carousel-inner img {
-  width: 550px;
-  margin: auto; }
+.redes {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  justify-content: center; }
 
-.main .numeroCentro {
+.redes-flex {
+  margin: 10px;
+  margin-bottom: 100px; }
+
+footer {
+  background-color: #9b4040; }
+
+.headerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15rem;
+  background-image: url(./imagenes/paredladrillos3.jpg);
+  justify-items: center;
+  align-items: center;
+  width: 100%; }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.numeroCentro {
   margin: auto;
   display: flex;
   justify-content: center;
   margin: 0%; }
 
-.main .trabajaconnosotros {
-  border-radius: 20px;
-  width: 650px; }
+* {
+  margin: 0;
+  padding: 0%; }
 
-.main .formulario {
+.headerencabezado {
+  display: grid;
+  background: url("../imagenes/paredladrillos3.jpg");
+  background-color: rgba(17, 10, 155, 0.966);
+  width: 100%; }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.contacto {
+  width: 50px; }
+
+.contactoFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.imagenFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.size {
+  border-radius: 20px;
+  margin: auto;
+  width: 300px;
+  height: 300px; }
+
+.galeriaGridfotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 25rem; }
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  justify-content: center; }
+
+.redes-flex {
+  margin: 10px;
+  margin-bottom: 100px; }
+
+footer {
+  background-color: #9b4040; }
+
+.headerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15rem;
+  background-image: url(./imagenes/paredladrillos3.jpg);
+  justify-items: center;
+  align-items: center;
+  width: 100%; }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.numeroCentro {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0%; }
+
+* {
+  margin: 0;
+  padding: 0%; }
+
+.headerencabezado {
+  display: grid;
+  background: url("../imagenes/paredladrillos3.jpg");
+  background-color: rgba(17, 10, 155, 0.966);
+  width: 100%; }
+
+.formulario {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #472506;
   text-align: left; }
 
-.main .margenFormulario {
+.margenFormulario {
   width: 200px;
-  height: 30px;
-  margin-left: 30px; }
+  height: 30px; }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.contacto {
+  width: 50px; }
+
+.contactoFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.trabajaconnosotros {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  width: 650px; }
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  justify-content: center; }
+
+.redes-flex {
+  margin: 10px;
+  margin-bottom: 100px; }
+
+footer {
+  background-color: #9b4040; }
+
+.headerGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15rem;
+  background-image: url(./imagenes/paredladrillos3.jpg);
+  justify-items: center;
+  align-items: center;
+  width: 100%; }
+
+.logosRedes {
+  width: 50px;
+  border-radius: 5px; }
+
+.numeroCentro {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0%; }
+
+* {
+  margin: 0;
+  padding: 0%; }
+
+.headerencabezado {
+  display: grid;
+  background: url("../imagenes/paredladrillos3.jpg");
+  background-color: rgba(17, 10, 155, 0.966);
+  width: 100%; }
+
+@media only screen and (max-width: 480px) {
+  .menu-flex {
+    display: flex;
+    flex-direction: column; }
+  .mapa {
+    width: 100%; }
+  .trabajaconnosotros {
+    width: 100%; }
+  .barraNavegacion--lista {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 30px; }
+  .logoempresa {
+    margin-left: 260px; }
+  .galeriaFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+  .pagination {
+    justify-content: center; }
+  .galeriaFlex img {
+    margin: 10px;
+    width: 250px; }
+  h3 {
+    text-align: center;
+    margin: 0%; }
+  .mapaGoogle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; }
+  .mapa {
+    margin: 0px; }
+  .bordemapa {
+    position: relative;
+    margin: 0%;
+    padding: 0%; }
+  .contactoFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .galeriaFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    padding: 0px; } }
+
+@media only screen and (max-width: 768px) {
+  .headerGrid {
+    grid-template-columns: 1fr; }
+  .img-paredGrid {
+    grid-template-columns: 1fr; }
+  .galeriaGrid {
+    grid-template-columns: 1fr;
+    width: 1px; }
+  .col-lg-4 {
+    margin: 5px;
+    font-style: oblique;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    height: 20rem;
+    padding: 15px;
+    margin-left: 40px;
+    border-radius: 5px; }
+  .sizeconst {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 10rem;
+    height: 10rem; }
+  .footerGrid {
+    grid-template-columns: 1fr; }
+  .galeriaGridfotos {
+    grid-template-columns: 1fr; }
+  /*------------------------------MEDIAindexGrid------------------*/ }
+
+@media only screen and (max-width: 1023px) {
+  .menu-flex {
+    display: flex;
+    flex-direction: column; }
+  .barraNavegacion--lista {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 30px; }
+  .logoempresa {
+    margin-left: 260px; }
+  .galeriaFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+  .galeriaFotos img {
+    margin: 10px;
+    width: 250px; }
+  h3 {
+    text-align: center;
+    margin: 0%; }
+  .mapaGoogle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; }
+  .mapa {
+    margin: 0px; }
+  .bordemapa {
+    position: relative;
+    margin: 0%;
+    padding: 0%; }
+  .contactoFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .trabajaconnosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem; } }

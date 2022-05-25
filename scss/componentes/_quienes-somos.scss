@@ -1,15 +1,68 @@
+li:hover{
+    background-color: rgba(34, 128, 160, 0.977);
+    
+}
+.logosRedes {
+    width: 50px;
+    border-radius: 5px;
+}
 
-.main{  
-    .animacionP{
-        background-image: linear-gradient(rgb(11, 11, 183),rgb(127, 127, 249));
-        transition: all 1s;
-    }
-    .numeroCentro {
-        margin: auto;
+.contacto {
+    
+    width: 50px;
+   }
+
+.contactoFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    margin:40px;
+    justify-content: center;
+}
+
+.redes-flex{
+    margin: 10px;
+    margin-bottom: 100px;
+}
+footer{
+    background-color: rgb(155, 64, 64);
+}
+.headerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15rem;
+    background-image: url(./imagenes/paredladrillos3.jpg);
+    justify-items: center;
+    align-items: center;
+    width: 100%;}
+    
+.logosRedes {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.numeroCentro {
+    margin: auto;
     display: flex;
     justify-content: center;
     margin: 0%;
-    }
+}
+*{
+    margin: 0;
+    padding: 0%;
+}
     
 
+
+
+
+.headerencabezado{
+    display: grid;
+    background: url("../imagenes/paredladrillos3.jpg");
+    background-color: rgba(17, 10, 155, 0.966);
+    width: 100%;
 }

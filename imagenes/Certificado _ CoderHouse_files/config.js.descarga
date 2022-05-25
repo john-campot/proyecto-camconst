@@ -1,0 +1,6 @@
+
+window[window["TiktokAnalyticsObject"]].instance("C7SOF1J9OPOOJ4K4280G").setAdvancedMatchingAvailableProperties({"email":true,"phone_number":true,"auto_email":false,"auto_phone_number":false});
+window[window["TiktokAnalyticsObject"]].instance("C7SOF1J9OPOOJ4K4280G").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("C7SOF1J9OPOOJ4K4280G").setPixelInfo({status: 0, name: "Uruguay USD", advertiserID: "7057959853880311809", setupMode: 1, partner: "", is_onsite: false });
+window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("coderhouse.com.uy");
+window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig([]);
+window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie && window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie(true);

@@ -1,0 +1,206 @@
+                 
+    @media only screen and (max-width: 480px) {
+        .menu-flex {
+            display: flex;
+            flex-direction: column;}
+            
+            .mapa {
+                width: 100%;
+            }
+    
+            .trabajaconnosotros{
+                
+                width: 100%;
+            }
+    
+        .barraNavegacion--lista {
+    
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+    
+        .logoempresa {
+            margin-left: 260px;
+        }
+    
+        .galeriaFlex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            
+            
+        }
+        .pagination {
+            justify-content: center;
+        }
+        .galeriaFlex img {
+            margin: 10px;
+            width: 250px;
+        }
+        h3{
+             text-align: center;
+             margin: 0%;
+         }
+    
+         .mapaGoogle {
+             display: flex;
+             flex-direction: row;
+             justify-content: center;
+             width: 100%;
+    
+         }
+         .mapa {
+             margin: 0px;
+         }
+         .bordemapa {
+             position: relative;
+             margin: 0%;
+             padding: 0%;
+         }
+         
+    
+        .contactoFlex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+         .galeriaFlex {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 50%;
+            padding: 0px;
+         }
+        
+            
+         
+        
+    }
+    
+    @media only screen and (max-width: 768px) {
+    
+        .headerGrid{
+          grid-template-columns: 1fr;
+        }
+        .img-paredGrid{
+            grid-template-columns: 1fr;
+        }
+        .galeriaGrid{
+            grid-template-columns: 1fr;
+            width: 1px;
+        }
+    
+        .col-lg-4 {
+            margin: 5px;
+            font-style: oblique;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 85%;
+            height: 20rem;
+            padding: 15px;
+            margin-left: 40px;
+            border-radius: 5px;
+        }
+    
+        .sizeconst{
+            grid-template-columns: 1fr;
+            justify-items: center;
+            width: 10rem;
+            height: 10rem;
+            
+        }
+    
+        .footerGrid{
+            grid-template-columns: 1fr;
+        }
+    
+        .galeriaGridfotos {
+            grid-template-columns: 1fr;
+    
+        }
+       
+    
+    
+    
+    /*------------------------------MEDIAindexGrid------------------*/
+    
+          
+                
+    }
+    @media only screen and (max-width: 1023px) {
+        .menu-flex {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .barraNavegacion--lista {
+    
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+    
+        .logoempresa {
+            margin-left: 260px;
+        }
+    
+        .galeriaFlex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            
+            
+        }
+        .galeriaFotos img {
+            margin: 10px;
+            width: 250px;
+        }
+        h3{
+             text-align: center;
+             margin: 0%;
+         }
+    
+         .mapaGoogle {
+             display: flex;
+             flex-direction: row;
+             justify-content: center;
+             width: 100%;
+    
+         }
+         .mapa {
+             margin: 0px;
+         }
+         .bordemapa {
+             position: relative;
+             margin: 0%;
+             padding: 0%;
+         }
+       
+         .contactoFlex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+         .trabajaconnosotros {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 20rem
+         }
+        
+    }
+    
+    
+    
+    
+    

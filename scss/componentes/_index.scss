@@ -1,7 +1,227 @@
-.body {
-    .colorfondo {
-        color: $color-pricipal;
+h1{ 
+    text-shadow: 3px 3px;
+    -webkit-text-stroke: 1px rgb(226, 210, 210);
+    color: transparent; 
+    color: rgb(50, 50, 244);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Serif', serif;
+}
+.logoE {
+    width: 150px;
+    border-radius: 15px;
+}
+.nav-link {
+    font-size: 24px;
+}
+
+
+
+.logoempresa{
+    margin: auto;
+    width: 100px;
+   
+}
+p { 
+    text-decoration-style: double;
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    
+}
+h5 {
+    font-size: large;
+    color: rgb(248, 248, 248);
+}
+
+.animacionP {
+    /*listo para mergear*/
+    background-image: linear-gradient(rgb(11, 11, 183),rgb(127, 127, 249));
+    transition: all 1s;
+}
+.animacionP:hover {
+
+    background-image: linear-gradient(rgb(11, 11, 77),rgb(120, 120, 183));
+    transform: scale(1);
+}
+
+.fuentetexto{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.logo-nav{
+        margin-right: 200px;
     }
+
+    
+li .fuentetexto{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(131, 19, 11);}
+
+.menu-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;}
+
+    .imagengaleria {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .carousel-inner img{
+        width: 550px;
+       margin:auto;
+       border-radius: 5rem;
+       
+    }
+    
+    .imagenGaleriasize {
+        border-radius: 10px;
+        justify-items: center;
+        width: 400px;
+        height: 300px;
+        display: inline-block;
+        margin: 2px;
+       
+    }   
+
+    
+    .text-center-my-3 {
+        text-align: center;
+        animation-name: titulo;
+        animation-duration: 15s;
+        animation-delay: 3s;
+
+    }
+    @keyframes titulo {
+    
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: .5;
+       
+        } 
+        20% {
+            opacity: 1;
+       
+        } 
+        30% {
+            opacity: 1.5;
+       
+        } 
+        40% {
+            opacity: 1.8;
+       
+        } 
+        60% {
+            opacity: 2;
+       
+        } 
+        100% {
+            opacity: 2.5;
+       
+        } 
+}
+
+    
+    .col-lg-4{
+        border-radius: 10px;
+        padding: 5px;
+        
+    }
+   
+
+.colorfondo {
+       background-color: chocolate;
+    }
+
+    h3 {
+        margin: auto;
+        font-size: 30px;
+        color: rgb(246, 243, 241);
+        text-align: center;
+        
+        
+    
+    }
+    h4 {
+        margin: auto;
+        font-size: 30px;
+        color: aliceblue;
+        text-align: center;
+        font-size:30px
+    }
+    
+.sizeconst{
+    
+    margin: 130px;
+    display: inline-block;
+    flex-direction: row;
+     width: 150px;
+    height: 120px;
+}
+
+.img-p{
+    width: 100%;
+}
+
+.iframe {
+    height: 1px;
+    width: 1px;
+}
+
+.imagenpared {
+    width: 100%;
+}
+.bordemapa{
+   
+    border-radius: 10px;
+    margin-left: 480px;
+    width: 300px;
+    height: 200px;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.logosRedes {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.contacto {
+    
+    width: 50px;
+   }
+
+.contactoFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    margin:40px;
+    justify-content: center;
+}
+
+.galeriaGrid h3{
+    text-align: center;
+}
+
+.redes-flex{
+    margin: 10px;
+    margin-bottom: 100px;
+}
+footer{
+    background-color: rgb(155, 64, 64);
 }
 
 .headerGrid {
@@ -13,119 +233,117 @@
     align-items: center;
     width: 100%;
 }
+.img-paredGrid{
+    background-image: url(./imagenes/imagenPared2.jpg);
+    justify-items: center;
+    width: 100%;
+    background-attachment: fixed;
 
-.header {
-    .headerencabezado{
-        display: grid;
-        background: url(./imagenes/paredladrillos3.jpg);
-        background-color: rgba(17, 10, 155, 0.966);
-        width: 100%;
-             .logo-nav {
-                        margin-right: 200px;
-                        }
+    animation-name: pared;
+    animation-duration: 10s;
+}
+@keyframes pared {
     
+    0% {
+        opacity: 0;
     }
-
-    .menu-flex {
-        @include flexbox (center, row);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: 15px;
-
-    }
+    10% {
+        opacity: .1;
+   
+    } 
+    20% {
+        opacity: .5;
+   
+    } 
+    30% {
+        opacity: 1;
+   
+    } 
+    40% {
+        opacity: 1.5;
+   
+    } 
+    60% {
+        opacity: 2;
+   
+    } 
+    100% {
+        opacity: 2.5;
+   
+    } 
 }
 
-.main {
+.galeriaGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 10rem);
+    gap: 1rem;
+    column-gap: 1rem;
+    background-color: rgb(172, 46, 24);
 
-        .img-paredGrid {
-            background-image: url(./imagenes/imagenPared2.jpg);
-            justify-items: center;
-            width: 100%;
-            background-attachment: fixed;
-        }
+}
 
-        .imagenFlex {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
+.footerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
 
-            .galeriaFlex {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                width: 100%;
-                            }
-        }
-        .imagenGaleriasize {
-            border-radius: 10px;
-            justify-items: center;
-            width: 400px;
-            height: 300px;
-            display: inline-block;
-            margin: 2px
+.redesGrid{
+    grid-area: 1fr 1fr 1fr;
+    
+}
 
-                    }
+.logosRedes {
+    width: 50px;
+    border-radius: 5px;
+}
 
-            .sizeconst {
-                margin: 130px;
-                display: inline-block;
-                flex-direction: row;
-                width: 150px;
-                height: 120px;
+.numeroCentro {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+.barraNavegacion--lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 85, 143);
+    list-style: none;
+}
+.barraNavegacion--lista li {
+    margin-right: 15px;
+}
 
-            }
 
-            .p { 
-                text-decoration-style: double;
-                color: rgb(249, 249, 249);
-                font-size: map-get($tamanio-texto, parrafos);
-                text-align: justify;
-                padding: 10px;
-            }
 
-            .footer {
+.titulo{
+    color: rgb(13, 56, 147);
+    font-size:50px;
+    font-style: initial;
+    
+}
 
-                .contactoFlex {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                }
 
-                .contacto {
-                        width: 50px;
-                }
-
-                .mapaGoogle {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    width: 100%;
-                }
-
-                .bordemapa {
-                    position: relative;
-                    margin: 0%;
-                    padding: 0%;
-                }
-
-                .redes {
-                    display: flex;
-                    flex-direction: row;
-                    margin:40px;
-                    justify-content: center;
-                }
-
-                .redesFlex{
-                    margin: 10px;
-                    margin-bottom: 100px;
-
-                }
-                
-
-            }
+nav {
+    display: inline-block;
+    width: fit-content;
+}
+*{
+    margin: 0;
+    padding: 0%;
+}
+    
 
 
 
 
+.headerencabezado{
+    display: grid;
+    background: url("../imagenes/paredladrillos3.jpg");
+    background-color: rgba(17, 10, 155, 0.966);
+    width: 100%;
 }
